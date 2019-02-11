@@ -46,6 +46,10 @@ catch (DbConnectionException exp) {
 }
 ```
 
+### How to use logs to understand failures
+
+Logs tell a story. The story of failure begins with a request or invocation of some piece of functionality, continues through a series of steps that may or may not help understand the failure, and finally concludes with the record of the error. Being able to see what happened before an error occurred is the first step to understanding why the error occurred.
+
 ## Telemetry
 
 Telemetry is a reporting tool. It lets you see how well your code is doing what it’s supposed to do. Telemetry is different from logging in that it is intended to be used to create graphs that can show you how your code is doing overall, when looked at across all the users of the code.
